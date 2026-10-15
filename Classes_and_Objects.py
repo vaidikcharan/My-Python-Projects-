@@ -77,3 +77,19 @@ class rectangle():
 
 a= rectangle(5, 4)
 print(f"Area of Reactangle is: {a.area()}")
+
+#--------------------------------------------------------------
+class person:
+    def setvalues(self, age, name, weight, gender):
+        self.age= age
+        self.name= name
+        self.weight= weight
+        self.gender= gender 
+
+    def showvalues(self):
+        pronoun= "he" if self.gender== "Male" else "she"
+        print(f"the persons name is {self.name}, {pronoun} is {self.age}, weight is {self.weight}kg.")
+
+p1= person()
+p1.setvalues(23, "pravesh", 50, "Male")
+p1.showvalues()
