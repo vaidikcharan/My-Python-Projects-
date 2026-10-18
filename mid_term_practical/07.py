@@ -7,19 +7,23 @@
 
 import operator
 import math
+#Q.1 
 print("Using + Operator:")
 a= 5
 b= 7
 add= a+b
 print(add)
 
+#Q.2
 print("Using sum() Function:")
 nums= [20, 30,  40]
 print(sum(nums))
 
+#Q.3
 print("Using sum() Function:")
 print(operator.add(50,60))
 
+#Q.4
 print("Using math.fsum():")
 #The fsum() function from the math module is used for precise floating-point addition.
 #It helps reduce rounding errors while adding decimal values.
